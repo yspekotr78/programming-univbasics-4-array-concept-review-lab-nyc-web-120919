@@ -20,7 +20,7 @@ end
   
 #    if array[index]=value_to_find
  #    puts index
-    return index
+  #  return index
  # else return false
 #end
 # end
