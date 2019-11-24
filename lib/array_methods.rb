@@ -22,7 +22,7 @@ end
 def find_min_value(array)
   min_value=1000
   array.length.times do |index|
-     if array[index]<min_value
+     if min_value>array[index]
        min_value=array[index]
      end
    end
