@@ -20,11 +20,11 @@ end
 
 
 def find_min_value(array)
-  max_value=0
+  min_value=1000
   array.length.times do |index|
-     if array[index]>max_value
-       max_value=array[index]
+     if array[index]<min_value
+       min_value=array[index]
      end
    end
-   return max_value
+   return min_value
 end
